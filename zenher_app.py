@@ -11,7 +11,7 @@ user_input = st.text_input("Ask your question 👇")
 
 def ask_zenher(prompt):
     headers = {
-        "Authorization": "Bearer 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"
+        "Authorization": "Bearer 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"
     }
     url = "https://api-inference.huggingface.co/models/microsoft/Phi-3-mini"
     payload = {
